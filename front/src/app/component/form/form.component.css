@@ -1,0 +1,29 @@
+label {
+  display: inline-block;
+  width: 5em;
+  margin: 20px;
+  color: #88cb2c;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+input {
+  height: 2em;
+  font-size: 1em;
+  padding-left: .4em;
+}
+button {
+  margin: 20px;
+  font-family: Arial;
+  font-size: 1.5em;
+  background-color: #9bee92;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #2edc37;
+}
+.container {
+  position: relative;
+}

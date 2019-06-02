@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="input">
+    <label>Coffee type</label>
+    <input #typeName placeholder="type name">
+    <button (click)="addType(typeName.value)"> Add</button>
+  </div>
+
+  <div class="coffee-table">
+    <app-show></app-show>
+  </div>
+
+</div>

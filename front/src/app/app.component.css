@@ -1,0 +1,49 @@
+#container {
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-areas: 'page-header page-header page-header'
+                       'ads-left warm-content ads-right'
+                       'page-footer page-footer page-footer';
+  height: 90vh;
+  grid-gap: 10px;
+  margin: 0;
+}
+
+#page-header {
+  grid-area: page-header;
+  text-align: center;
+}
+
+#warm-content {
+  grid-area: warm-content;
+  align-items: center;
+  text-align: center;
+}
+
+#page-footer {
+  grid-area: page-footer;
+}
+
+#ads-left {
+  display: flex;
+  grid-area: ads-left;
+  justify-content: center;
+
+}
+
+#ads-right {
+  display: flex;
+  grid-area: ads-right;
+  justify-content: center;
+
+}
+.ads {
+  height: 80vh;
+  font-size: 30px;
+  font-weight: bold;
+  writing-mode: vertical-rl ;
+  color: #2edc37;
+
+
+}
